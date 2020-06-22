@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Button, Grid, Typography } from "@material-ui/core";
-import {sendServerRequest} from "../utils/api";
+
 
 const Layout = () =>
 {
@@ -18,10 +18,10 @@ const Layout = () =>
 			style={{height: "100vh"}}
 			>
 			<Grid item>
-				<Typography variant={"h2"}>Hello World!</Typography>
+				<Typography variant={"h2"}>Hello, my name is Finn!</Typography>
 			</Grid>
 			<Grid item>
-				<Button color={"primary"} onClick={() => sendServerRequest(request)}>Click Me To Hit API</Button>
+
 			</Grid>
 		</Grid>
 	)
