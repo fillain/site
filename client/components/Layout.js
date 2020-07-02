@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Button, Grid, Typography } from "@material-ui/core";
+import SquirrelImage from "../static/images/squirrel.jpg"
 
 
 const Layout = () =>
@@ -18,7 +19,9 @@ const Layout = () =>
 			style={{height: "100vh"}}
 			>
 			<Grid item>
-				<Typography variant={"h2"}>Hello, my name is Finn!</Typography>
+				<Typography variant={"h1"} color={'primary'}>This Website is a Work in Progress!</Typography>
+				<Typography variant={"h2"} color={'primary'}>Hello, my name is Finn!</Typography>
+				{SquirrelImage}
 			</Grid>
 			<Grid item>
 
