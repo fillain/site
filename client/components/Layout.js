@@ -1,14 +1,14 @@
 import React from "react";
 
 import { Button, Grid, Typography } from "@material-ui/core";
-import SquirrelImage from "../static/images/squirrel.jpg"
+import Squirrel from "../static/images/squirrel.jpg"
 
 
 const Layout = () =>
 {
-	let request = {requestType: "postRequest", payload: "Test"};
 
 	return (
+
 		<Grid
 			container
 			direction={"column"}
@@ -19,14 +19,13 @@ const Layout = () =>
 			style={{height: "100vh"}}
 			>
 			<Grid item>
-				<Typography variant={"h1"} color={'primary'}>This Website is a Work in Progress!</Typography>
 				<Typography variant={"h2"} color={'primary'}>Hello, my name is Finn!</Typography>
-				{SquirrelImage}
 			</Grid>
 			<Grid item>
-
+				<img src={Squirrel} alt={"Squirrel Image"} height={400} width={400}/>
 			</Grid>
 		</Grid>
+
 	)
 };
 
