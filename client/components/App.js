@@ -23,6 +23,9 @@ const App = () =>
     const theme = React.useMemo(
         () =>
             createMuiTheme({
+                typography: {
+                    fontFamily: 'Playfair Display'
+                },
                 palette: {
                     type: darkMode ? 'dark' : 'light',
                 },

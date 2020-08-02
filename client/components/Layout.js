@@ -1,7 +1,9 @@
 import React from "react";
 
-import { Button, Grid, Typography } from "@material-ui/core";
+import { Button, Grid, Typography, Container} from "@material-ui/core";
 import Squirrel from "../static/images/squirrel.jpg"
+import FinnImage from "../static/images/FinnImage.jpg"
+
 
 
 const Layout = () =>
@@ -9,6 +11,7 @@ const Layout = () =>
 
 	return (
 
+		<Container>
 		<Grid
 			container
 			direction={"column"}
@@ -17,14 +20,17 @@ const Layout = () =>
 			alignItems={"center"}
 			spacing={2}
 			style={{height: "100vh"}}
-			>
+		>
+
 			<Grid item>
-				<Typography variant={"h2"} color={'primary'}>Hello, my name is Finn!</Typography>
+				<Typography variant={"h2"} >Finn Sizer</Typography>
 			</Grid>
 			<Grid item>
-				<img src={Squirrel} alt={"Squirrel Image"} height={400} width={400}/>
+				<img src={FinnImage} alt={"Finn Image"} height={"auto"} width={"100%"}/>
+
 			</Grid>
 		</Grid>
+		</Container>
 
 	)
 };

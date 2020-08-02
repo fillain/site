@@ -17,7 +17,7 @@
     "@mui-treasury/styles": "^1.8.0",
     "@mui-treasury/styling": "^0.2.8",
     "clsx": "latest",
-    "fontsource-roboto": "^2.1.4",
+    "fontsource-roboto": "^2.2.6",
     "framer-motion": "^1.11.1",
     "notistack": "^0.9.17",
     "react": "^16.13.1",
